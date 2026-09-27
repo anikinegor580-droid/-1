@@ -1,0 +1,10 @@
+def compare(m, n):
+    if m>n:
+        return f"Number m>n"
+    if m<n:
+        return f"Number m<n"
+    else:
+        return "The numbers are equal"
+print(compare(5, 3))
+print(compare(3, 5))
+print(compare(4, 4))

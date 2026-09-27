@@ -1,0 +1,11 @@
+def is_divisor(a,b):
+    if a==0:
+        return False
+    if b%a==0:
+        return True
+    if b%a!=0:
+        return False
+print(is_divisor(3, 12))
+print(is_divisor(5, 12))
+print(is_divisor(0, 12))
+print(is_divisor(7, 0))
